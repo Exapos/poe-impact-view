@@ -2,7 +2,6 @@
 -- This wrapper allows the program to run headless on any OS (in theory)
 -- It can be run using a standard lua interpreter, although LuaJIT is preferable
 
-
 -- Callbacks
 local callbackTable = { }
 local mainObject

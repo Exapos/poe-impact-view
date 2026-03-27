@@ -6,13 +6,14 @@ Current project status: version 0.1.0.
 
 ## Quick Start
 
-1. Install dependencies with `npm install`
-2. Open `chrome://extensions`
-3. Enable Developer mode
-4. Choose Load unpacked
-5. Select the repository root
-6. Open the popup, import a build, and choose the active build
-7. Open an official Path of Exile trade search and inspect item deltas in the overlay
+For normal extension use, no `npm install` is required.
+
+1. Open `chrome://extensions`
+2. Enable Developer mode
+3. Choose Load unpacked
+4. Select either the repository root or a packaged `dist/poe-impact-view` folder from a release build
+5. Open the popup, import a build, and choose the active build
+6. Open an official Path of Exile trade search and inspect item deltas in the overlay
 
 ## Features
 
@@ -58,6 +59,8 @@ High-level runtime flow:
 
 ## Development
 
+`npm` is only required for development tasks such as rebuilding bundles, running validation scripts, or producing a release package.
+
 Install dependencies:
 
 ```bash
@@ -76,6 +79,14 @@ Or rebuild them individually:
 npm run bundle:wasmoon
 npm run bundle:pako
 ```
+
+Create a self-contained distributable extension folder:
+
+```bash
+npm run package:extension
+```
+
+This writes `dist/poe-impact-view/`, which contains only the runtime files Chrome needs and does not rely on `node_modules`.
 
 ## Development Notes
 
@@ -122,7 +133,7 @@ Host permissions are limited to the sites the extension needs to read from or co
 1. Open `chrome://extensions`
 2. Enable Developer mode
 3. Choose Load unpacked
-4. Select the repository root
+4. Select the repository root or `dist/poe-impact-view`
 
 ## Permissions And External Services
 

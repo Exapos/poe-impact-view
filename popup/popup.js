@@ -20,6 +20,7 @@
   const calcStats = document.getElementById('calc-stats');
 
   let popupState = { builds: [], activeBuildId: null, activeBuild: null };
+  let importToken = 0;
 
   // ── Tab switching ──
   tabs.forEach(tab => {
@@ -47,6 +48,7 @@
     const customName = buildNameInput.value.trim();
     if (!raw) return showStatus(I18n.t('import.validating'), 'warn');
 
+    const token = ++importToken;
     showStatus(I18n.t('import.decoding'), 'loading');
     btnImport.disabled = true;
 
@@ -74,47 +76,113 @@
       const xml = await PobCodec.decode(pobCode);
       const extracted = PobStats.extractAll(xml);
       const stats = PobStats.normalizeStats(extracted.stats);
-
-      // Run live calculation via headless PoB
-      showStatus(I18n.t('import.calculating'), 'loading');
-      let liveStats = null;
-      try {
-        liveStats = await pobLuaVM.initBuildFromXml(xml);
-      } catch (e) {
-        console.warn('[Popup] Live calc failed, using cached stats:', e.message);
-      }
-
-      const finalStats = liveStats || stats;
-
       const build = {
+        id: BuildStorage.createId(),
         name: customName || BuildStorage.getDefaultBuildName({ buildInfo: extracted.buildInfo }),
         buildInfo: extracted.buildInfo,
         stats: extracted.stats,
         items: extracted.items,
         skills: extracted.skills,
         config: extracted.config,
-        liveStats: liveStats || null,
+        liveStats: null,
         xmlText: xml,
         importedAt: Date.now(),
         pobCode: pobCode,
       };
       await BuildStorage.addBuild(build);
 
-      showStatus(I18n.t('import.success'), 'ok');
+      showStatus(I18n.t('import.success', { n: Object.keys(stats || {}).length }), 'ok');
       await refreshState();
-      renderBuildDetails(build, finalStats);
-      renderCalcStats(finalStats);
+      renderBuildDetails(build, stats);
+      renderCalcStats(stats);
 
       // Switch to build tab
       document.querySelector('[data-tab="build"]').click();
       inputPob.value = '';
+      btnImport.disabled = false;
+
+      showStatus(I18n.t('import.live_pending'), 'loading');
+      void computeLiveStatsInBackground(build.id, xml, token);
 
     } catch (e) {
       console.error('[Popup] Import failed:', e);
       showStatus(I18n.t('import.err_decode', { msg: e.message }), 'error');
-    } finally {
       btnImport.disabled = false;
     }
+  }
+
+  async function computeLiveStatsInBackground(buildId, xmlText, token) {
+    const unsubscribe = pobLuaVM.onProgress((event) => {
+      if (token !== importToken) return;
+      const progress = mapVmProgressToImportStatus(event);
+      if (!progress) return;
+      showStatus(progress.text, progress.type);
+    });
+
+    try {
+      const liveStats = await pobLuaVM.initBuildFromXml(xmlText);
+      if (!liveStats) {
+        if (token === importToken) {
+          showStatus(I18n.t('import.live_failed'), 'warn');
+        }
+        return;
+      }
+
+      const state = await BuildStorage.getState();
+      const existing = state.builds.find((entry) => entry.id === buildId);
+      if (!existing) return;
+
+      await BuildStorage.addBuild(
+        {
+          ...existing,
+          liveStats,
+        },
+        { setActive: state.activeBuildId === buildId }
+      );
+
+      await refreshState();
+      renderAll();
+
+      if (token === importToken) {
+        showStatus(I18n.t('import.success_live', { n: PobStats.formatNumber(liveStats.totalDps || 0) }), 'ok');
+      }
+    } catch (e) {
+      console.warn('[Popup] Background live calc failed:', e);
+      if (token === importToken) {
+        showStatus(I18n.t('import.live_failed'), 'warn');
+      }
+    } finally {
+      unsubscribe();
+      if (token === importToken) {
+        btnImport.disabled = false;
+      }
+    }
+  }
+
+  function mapVmProgressToImportStatus(event) {
+    const phase = event?.phase;
+    const detail = event?.detail || {};
+    if (!phase) return null;
+
+    if (phase === 'init.assets.mount_progress') {
+      return {
+        text: I18n.t('import.engine_mounting', {
+          mounted: detail.mounted || 0,
+          total: detail.total || 0,
+        }),
+        type: 'loading',
+      };
+    }
+
+    if (phase.startsWith('init.')) {
+      return { text: I18n.t('import.engine_init'), type: 'loading' };
+    }
+
+    if (phase === 'build.load_xml' || phase === 'build.start') {
+      return { text: I18n.t('import.calculating'), type: 'loading' };
+    }
+
+    return null;
   }
 
   async function handleBuildListClick(event) {

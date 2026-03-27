@@ -10,7 +10,8 @@
     "bundle": "npm run bundle:wasmoon && npm run bundle:pako",
     "bundle:pako": "node build/bundle-pako.mjs",
     "bundle:wasmoon": "node build/bundle-wasmoon.mjs",
-    "build": "npm run bundle"
+    "build": "npm run bundle",
+    "package:extension": "npm run build && node build/package-extension.mjs"
   },
   "keywords": [
     "chrome-extension",

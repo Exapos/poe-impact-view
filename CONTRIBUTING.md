@@ -14,6 +14,9 @@ Thanks for considering a contribution to PoE Impact View.
 2. Load the repository as an unpacked extension in Chrome
 3. Rebuild bundles with `npm run build` if you touch bundling inputs
 4. Run validation with `node scripts/validate-extension.mjs`
+5. If you are preparing something for distribution, build `dist/poe-impact-view` with `npm run package:extension`
+
+`npm` is a contributor/build-time requirement only. End users should load the prebuilt extension files and should not need `node_modules`.
 
 ## Contribution Guidelines
 
