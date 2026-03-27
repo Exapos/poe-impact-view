@@ -1,0 +1,15 @@
+node_modules/
+
+*.log
+*.tmp
+
+export-debug.txt
+local-debug.txt
+test-output*.txt
+upstream-debug*.txt
+
+.DS_Store
+
+scripts/
+
+debug/

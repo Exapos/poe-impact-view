@@ -1,0 +1,28 @@
+{
+  "name": "poe-impact-view",
+  "version": "0.1.0",
+  "description": "Chrome extension for Path of Exile trade pages with live PoB-based item impact calculation.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "bundle": "npm run bundle:wasmoon && npm run bundle:pako",
+    "bundle:pako": "node build/bundle-pako.mjs",
+    "bundle:wasmoon": "node build/bundle-wasmoon.mjs",
+    "build": "npm run bundle"
+  },
+  "keywords": [
+    "chrome-extension",
+    "path-of-exile",
+    "pob",
+    "trade"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.27.4",
+    "pako": "^2.1.0",
+    "wasmoon": "^1.16.0"
+  }
+}

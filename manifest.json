@@ -1,0 +1,104 @@
+{
+  "manifest_version": 3,
+  "name": "PoE Impact View",
+  "version": "0.1.0",
+  "description": "Path of Exile trade overlay — real Path of Building calculations for item impact",
+  "permissions": [
+    "storage",
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "https://pobb.in/*",
+    "https://pob.cool/*"
+  ],
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "options_page": "options/options.html",
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.pathofexile.com/trade/*",
+        "https://pathofexile.com/trade/*"
+      ],
+      "js": [
+        "lib/wasmoon-bundle.js",
+        "lib/pako-bundle.js",
+        "lib/i18n.js",
+        "lib/build-storage.js",
+        "lib/pob-codec.js",
+        "lib/pob-stats.js",
+        "lib/pob-lua-vm.js",
+        "content/trade-parser.js",
+        "content/trade-overlay.js"
+      ],
+      "css": [
+        "content/trade-overlay.css"
+      ],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": [
+        "https://pob.cool/*"
+      ],
+      "js": [
+        "content/pob-bridge.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "content/pob-page-hook.js"
+      ],
+      "matches": [
+        "https://pob.cool/*"
+      ]
+    },
+    {
+      "resources": [
+        "lib/glue.wasm",
+        "lib/pob-upstream-file-index.json",
+        "PathOfBuilding-dev/browser-file-manifest.json",
+        "PathOfBuilding-dev/manifest.xml",
+        "PathOfBuilding-dev/manifest.cfg",
+        "PathOfBuilding-dev/src/*.lua",
+        "PathOfBuilding-dev/src/**/*.lua",
+        "PathOfBuilding-dev/src/**/*.txt",
+        "PathOfBuilding-dev/src/**/*.json",
+        "PathOfBuilding-dev/src/**/*.zip",
+        "PathOfBuilding-dev/src/**/*.zip.part*",
+        "PathOfBuilding-dev/runtime/lua/*.lua",
+        "PathOfBuilding-dev/runtime/lua/**/*.lua"
+      ],
+      "matches": [
+        "https://www.pathofexile.com/*",
+        "https://pathofexile.com/*"
+      ]
+    }
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "pob_cool_headers",
+        "enabled": true,
+        "path": "rules/pob-cool-headers.json"
+      }
+    ]
+  }
+}

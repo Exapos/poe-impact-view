@@ -1,0 +1,330 @@
+/* ── PoE Impact View — Popup Styles ── */
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  width: 400px;
+  min-height: 300px;
+  background: #0c0c0e;
+  color: #e8e6e3;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 13px;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 14px;
+  background: linear-gradient(180deg, #1a1510 0%, #0c0c0e 100%);
+  border-bottom: 2px solid #af6025;
+}
+.header h1 {
+  font-size: 15px;
+  color: #af6025;
+  font-weight: bold;
+}
+.header-actions {
+  display: flex;
+  gap: 6px;
+}
+.header select {
+  background: #1a1a1e;
+  color: #e8e6e3;
+  border: 1px solid #3a3a3e;
+  border-radius: 3px;
+  padding: 2px 4px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+/* Tab bar */
+.tab-bar {
+  display: flex;
+  background: #1a1a1e;
+  border-bottom: 1px solid #2a2a2e;
+}
+.tab {
+  flex: 1;
+  padding: 8px;
+  background: none;
+  border: none;
+  color: #8b8b9e;
+  font-size: 12px;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: all 0.15s;
+}
+.tab:hover { color: #c0c0cc; }
+.tab.active {
+  color: #af6025;
+  border-bottom-color: #af6025;
+}
+
+/* Tab content */
+.tab-content { display: none; padding: 12px 14px; }
+.tab-content.active { display: block; }
+
+/* Form */
+.form-group {
+  margin-bottom: 10px;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 12px;
+  color: #8b8b9e;
+}
+.form-group textarea {
+  width: 100%;
+  background: #1a1a1e;
+  color: #e8e6e3;
+  border: 1px solid #3a3a3e;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 12px;
+  font-family: monospace;
+  resize: vertical;
+}
+.form-group textarea:focus {
+  outline: none;
+  border-color: #af6025;
+}
+.form-group input {
+  width: 100%;
+  background: #1a1a1e;
+  color: #e8e6e3;
+  border: 1px solid #3a3a3e;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 12px;
+}
+.form-group input:focus {
+  outline: none;
+  border-color: #af6025;
+}
+
+/* Buttons */
+.btn-primary {
+  width: 100%;
+  padding: 8px;
+  background: #af6025;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.btn-primary:hover { background: #c97030; }
+.btn-primary:disabled { background: #5a5a6e; cursor: default; }
+.btn-secondary {
+  padding: 6px 10px;
+  background: #1a1a1e;
+  color: #c0c0cc;
+  border: 1px solid #3a3a3e;
+  border-radius: 4px;
+  font-size: 11px;
+  cursor: pointer;
+}
+.btn-secondary:hover:not(:disabled) {
+  border-color: #af6025;
+  color: #e8e6e3;
+}
+.btn-secondary:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+.btn-danger-inline {
+  padding: 6px 8px;
+  background: #2a1a1a;
+  color: #ff8c8c;
+  border: 1px solid #5a3030;
+  border-radius: 4px;
+  font-size: 11px;
+  cursor: pointer;
+}
+.btn-danger-inline:hover {
+  background: #3a2020;
+}
+
+/* Status */
+.status {
+  margin-top: 8px;
+  padding: 6px 8px;
+  border-radius: 3px;
+  font-size: 12px;
+  min-height: 20px;
+}
+.status:empty { display: none; }
+.status-ok { background: #1a2a1a; color: #66ff66; }
+.status-warn { background: #2a2a1a; color: #cccc66; }
+.status-error { background: #2a1a1a; color: #ff6666; }
+.status-loading { background: #1a1a2a; color: #7090cc; }
+
+.empty-state {
+  text-align: center;
+  color: #5a5a6e;
+  padding: 20px;
+  font-style: italic;
+}
+
+/* Build Info */
+.build-header {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.build-class {
+  font-size: 16px;
+  font-weight: bold;
+  color: #af6025;
+}
+.build-level {
+  font-size: 12px;
+  color: #8b8b9e;
+}
+.build-stats-summary {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+.stat-chip {
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: bold;
+  background: #1a1a1e;
+  border: 1px solid #3a3a3e;
+}
+.stat-chip.dps { color: #ff6b6b; border-color: #553030; }
+.stat-chip.life { color: #e05050; border-color: #553030; }
+.stat-chip.es { color: #7070ff; border-color: #303055; }
+
+/* Item List */
+.build-items h3 {
+  font-size: 12px;
+  color: #8b8b9e;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.item-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.item-row {
+  display: flex;
+  gap: 8px;
+  padding: 3px 6px;
+  background: #1a1a1e;
+  border-radius: 3px;
+  font-size: 11px;
+}
+.item-slot {
+  min-width: 80px;
+  color: #6a6a7e;
+}
+.item-name { color: #c0c0cc; }
+.rarity-unique { color: #af6025; }
+.rarity-rare { color: #ffff77; }
+.rarity-magic { color: #8888ff; }
+.rarity-normal { color: #c0c0cc; }
+
+/* Stat Cards */
+.stat-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.stat-card {
+  background: #1a1a1e;
+  border: 1px solid #2a2a2e;
+  border-radius: 4px;
+  padding: 8px 10px;
+}
+.stat-card h3 {
+  font-size: 12px;
+  color: #8b8b9e;
+  margin-bottom: 6px;
+  border-bottom: 1px solid #2a2a2e;
+  padding-bottom: 4px;
+}
+.stat-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px 0;
+  font-size: 12px;
+}
+.stat-value { font-weight: bold; color: #c0c0cc; }
+.stat-value.dps { color: #ff6b6b; }
+.stat-value.life { color: #e05050; }
+.stat-value.es { color: #7070ff; }
+.stat-value.mana { color: #5090cc; }
+
+.build-list {
+  margin-bottom: 12px;
+}
+.build-list h3 {
+  font-size: 12px;
+  color: #8b8b9e;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.saved-build-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.saved-build-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 8px 10px;
+  border: 1px solid #2a2a2e;
+  background: #141417;
+  border-radius: 6px;
+}
+.saved-build-card.active {
+  border-color: #af6025;
+  background: linear-gradient(90deg, rgba(175,96,37,0.16) 0%, rgba(20,20,23,1) 80%);
+}
+.saved-build-meta {
+  min-width: 0;
+  flex: 1;
+}
+.saved-build-name {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: bold;
+  color: #e8e6e3;
+}
+.saved-build-subtitle {
+  margin-top: 2px;
+  font-size: 11px;
+  color: #8b8b9e;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.saved-build-badge {
+  padding: 1px 6px;
+  border-radius: 999px;
+  background: rgba(175,96,37,0.2);
+  color: #d48745;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+.saved-build-actions {
+  display: flex;
+  gap: 6px;
+}

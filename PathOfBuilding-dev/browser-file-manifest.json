@@ -1,0 +1,1697 @@
+[
+  {
+    "virtualPath": "../manifest.xml",
+    "assetPath": "PathOfBuilding-dev/manifest.xml",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/BuildListControl.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/BuildListControl.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/ButtonControl.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/ButtonControl.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/CalcBreakdownControl.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/CalcBreakdownControl.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/CalcSectionControl.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/CalcSectionControl.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/CalcsTab.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/CalcsTab.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/ConfigSetListControl.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/ConfigSetListControl.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/ConfigTab.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/ConfigTab.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/Control.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/Control.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/ControlHost.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/ControlHost.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/DraggerControl.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/DraggerControl.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/DropDownControl.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/DropDownControl.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/EditControl.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/EditControl.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/ExtBuildListControl.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/ExtBuildListControl.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/ExtBuildListProvider.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/ExtBuildListProvider.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/FolderListControl.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/FolderListControl.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/GemSelectControl.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/GemSelectControl.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/CheckBoxControl.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/CheckBoxControl.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/ImportTab.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/ImportTab.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/Item.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/Item.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/ItemDBControl.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/ItemDBControl.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/ItemListControl.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/ItemListControl.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/ItemSetListControl.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/ItemSetListControl.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/ItemSlotControl.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/ItemSlotControl.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/ItemsTab.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/ItemsTab.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/LabelControl.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/LabelControl.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/ListControl.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/ListControl.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/MinionListControl.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/MinionListControl.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/MinionSearchListControl.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/MinionSearchListControl.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/ModDB.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/ModDB.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/ModList.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/ModList.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/ModStore.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/ModStore.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/NotableDBControl.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/NotableDBControl.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/NotesTab.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/NotesTab.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/PartyTab.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/PartyTab.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/PassiveMasteryControl.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/PassiveMasteryControl.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/PassiveSpec.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/PassiveSpec.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/PassiveSpecListControl.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/PassiveSpecListControl.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/PassiveTree.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/PassiveTree.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/PassiveTreeView.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/PassiveTreeView.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/PathControl.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/PathControl.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/PoBArchivesProvider.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/PoBArchivesProvider.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/PopupDialog.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/PopupDialog.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/PowerReportListControl.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/PowerReportListControl.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/RectangleOutlineControl.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/RectangleOutlineControl.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/ResizableEditControl.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/ResizableEditControl.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/ScrollBarControl.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/ScrollBarControl.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/SearchHost.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/SearchHost.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/SectionControl.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/SectionControl.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/SharedItemListControl.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/SharedItemListControl.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/SharedItemSetListControl.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/SharedItemSetListControl.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/SkillListControl.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/SkillListControl.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/SkillSetListControl.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/SkillSetListControl.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/SkillsTab.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/SkillsTab.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/SliderControl.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/SliderControl.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/TextListControl.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/TextListControl.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/TimelessJewelListControl.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/TimelessJewelListControl.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/TimelessJewelSocketControl.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/TimelessJewelSocketControl.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/Tooltip.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/Tooltip.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/TooltipHost.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/TooltipHost.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/TradeQuery.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/TradeQuery.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/TradeQueryGenerator.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/TradeQueryGenerator.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/TradeQueryRateLimiter.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/TradeQueryRateLimiter.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/TradeQueryRequests.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/TradeQueryRequests.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/TradeStatWeightMultiplierListControl.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/TradeStatWeightMultiplierListControl.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/TreeTab.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/TreeTab.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Classes/UndoHandler.lua",
+    "assetPath": "PathOfBuilding-dev/src/Classes/UndoHandler.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Bases/amulet.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Bases/amulet.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Bases/axe.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Bases/axe.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Bases/belt.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Bases/belt.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Bases/body.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Bases/body.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Bases/boots.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Bases/boots.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Bases/bow.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Bases/bow.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Bases/claw.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Bases/claw.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Bases/dagger.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Bases/dagger.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Bases/fishing.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Bases/fishing.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Bases/flask.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Bases/flask.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Bases/gloves.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Bases/gloves.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Bases/graft.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Bases/graft.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Bases/helmet.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Bases/helmet.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Bases/jewel.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Bases/jewel.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Bases/mace.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Bases/mace.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Bases/quiver.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Bases/quiver.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Bases/ring.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Bases/ring.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Bases/shield.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Bases/shield.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Bases/staff.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Bases/staff.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Bases/sword.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Bases/sword.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Bases/tincture.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Bases/tincture.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Bases/wand.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Bases/wand.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/BeastCraft.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/BeastCraft.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Bosses.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Bosses.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/BossSkills.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/BossSkills.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/ClusterJewels.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/ClusterJewels.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Costs.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Costs.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Crucible.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Crucible.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/EnchantmentBelt.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/EnchantmentBelt.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/EnchantmentBody.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/EnchantmentBody.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/EnchantmentBoots.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/EnchantmentBoots.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/EnchantmentFlask.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/EnchantmentFlask.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/EnchantmentGloves.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/EnchantmentGloves.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/EnchantmentHelmet.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/EnchantmentHelmet.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/EnchantmentWeapon.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/EnchantmentWeapon.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Essence.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Essence.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/FlavourText.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/FlavourText.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Gems.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Gems.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Global.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Global.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Minions.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Minions.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Misc.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Misc.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/ModCache.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/ModCache.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/ModFlask.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/ModFlask.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/ModFoulborn.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/ModFoulborn.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/ModFoulbornMap.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/ModFoulbornMap.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/ModGraft.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/ModGraft.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/ModItem.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/ModItem.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/ModJewel.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/ModJewel.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/ModJewelAbyss.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/ModJewelAbyss.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/ModJewelCluster.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/ModJewelCluster.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/ModJewelCharm.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/ModJewelCharm.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/ModMap.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/ModMap.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/ModMaster.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/ModMaster.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/ModNecropolis.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/ModNecropolis.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/ModTincture.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/ModTincture.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/ModVeiled.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/ModVeiled.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Pantheons.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Pantheons.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/QueryMods.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/QueryMods.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Rares.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Rares.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Skills/act_dex.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Skills/act_dex.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Skills/act_int.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Skills/act_int.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Skills/act_str.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Skills/act_str.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Skills/glove.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Skills/glove.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Skills/minion.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Skills/minion.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Skills/other.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Skills/other.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Skills/spectre.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Skills/spectre.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Skills/sup_dex.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Skills/sup_dex.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Skills/sup_int.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Skills/sup_int.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Skills/sup_str.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Skills/sup_str.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/SkillStatMap.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/SkillStatMap.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Spectres.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Spectres.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/StatDescriptions/active_skill_gem_stat_descriptions.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/StatDescriptions/active_skill_gem_stat_descriptions.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/StatDescriptions/aura_skill_stat_descriptions.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/StatDescriptions/aura_skill_stat_descriptions.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/StatDescriptions/banner_aura_skill_stat_descriptions.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/StatDescriptions/banner_aura_skill_stat_descriptions.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/StatDescriptions/beam_skill_stat_descriptions.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/StatDescriptions/beam_skill_stat_descriptions.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/StatDescriptions/brand_skill_stat_descriptions.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/StatDescriptions/brand_skill_stat_descriptions.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/StatDescriptions/buff_skill_stat_descriptions.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/StatDescriptions/buff_skill_stat_descriptions.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/StatDescriptions/curse_skill_stat_descriptions.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/StatDescriptions/curse_skill_stat_descriptions.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/StatDescriptions/debuff_skill_stat_descriptions.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/StatDescriptions/debuff_skill_stat_descriptions.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/StatDescriptions/gem_stat_descriptions.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/StatDescriptions/gem_stat_descriptions.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/StatDescriptions/graft_stat_descriptions.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/StatDescriptions/graft_stat_descriptions.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/StatDescriptions/minion_attack_skill_stat_descriptions.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/StatDescriptions/minion_attack_skill_stat_descriptions.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/StatDescriptions/minion_skill_stat_descriptions.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/StatDescriptions/minion_skill_stat_descriptions.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/StatDescriptions/minion_spell_damage_skill_stat_descriptions.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/StatDescriptions/minion_spell_damage_skill_stat_descriptions.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/StatDescriptions/minion_spell_skill_stat_descriptions.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/StatDescriptions/minion_spell_skill_stat_descriptions.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/StatDescriptions/monster_stat_descriptions.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/StatDescriptions/monster_stat_descriptions.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/StatDescriptions/offering_skill_stat_descriptions.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/StatDescriptions/offering_skill_stat_descriptions.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/StatDescriptions/secondary_debuff_skill_stat_descriptions.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/StatDescriptions/secondary_debuff_skill_stat_descriptions.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/StatDescriptions/single_minion_spell_skill_stat_descriptions.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/StatDescriptions/single_minion_spell_skill_stat_descriptions.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/StatDescriptions/skill_stat_descriptions.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/StatDescriptions/skill_stat_descriptions.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/StatDescriptions/stat_descriptions.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/StatDescriptions/stat_descriptions.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/StatDescriptions/tincture_stat_descriptions.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/StatDescriptions/tincture_stat_descriptions.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/StatDescriptions/variable_duration_skill_stat_descriptions.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/StatDescriptions/variable_duration_skill_stat_descriptions.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/TattooPassives.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/TattooPassives.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/TimelessJewelData/BrutalRestraint.zip",
+    "assetPath": "PathOfBuilding-dev/src/Data/TimelessJewelData/BrutalRestraint.zip",
+    "encoding": "binary"
+  },
+  {
+    "virtualPath": "Data/TimelessJewelData/ElegantHubris.zip",
+    "assetPath": "PathOfBuilding-dev/src/Data/TimelessJewelData/ElegantHubris.zip",
+    "encoding": "binary"
+  },
+  {
+    "virtualPath": "Data/TimelessJewelData/GloriousVanity.zip.part0",
+    "assetPath": "PathOfBuilding-dev/src/Data/TimelessJewelData/GloriousVanity.zip.part0",
+    "encoding": "binary"
+  },
+  {
+    "virtualPath": "Data/TimelessJewelData/GloriousVanity.zip.part1",
+    "assetPath": "PathOfBuilding-dev/src/Data/TimelessJewelData/GloriousVanity.zip.part1",
+    "encoding": "binary"
+  },
+  {
+    "virtualPath": "Data/TimelessJewelData/GloriousVanity.zip.part2",
+    "assetPath": "PathOfBuilding-dev/src/Data/TimelessJewelData/GloriousVanity.zip.part2",
+    "encoding": "binary"
+  },
+  {
+    "virtualPath": "Data/TimelessJewelData/GloriousVanity.zip.part3",
+    "assetPath": "PathOfBuilding-dev/src/Data/TimelessJewelData/GloriousVanity.zip.part3",
+    "encoding": "binary"
+  },
+  {
+    "virtualPath": "Data/TimelessJewelData/GloriousVanity.zip.part4",
+    "assetPath": "PathOfBuilding-dev/src/Data/TimelessJewelData/GloriousVanity.zip.part4",
+    "encoding": "binary"
+  },
+  {
+    "virtualPath": "Data/TimelessJewelData/HeroicTragedy.zip",
+    "assetPath": "PathOfBuilding-dev/src/Data/TimelessJewelData/HeroicTragedy.zip",
+    "encoding": "binary"
+  },
+  {
+    "virtualPath": "Data/TimelessJewelData/LegionPassives.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/TimelessJewelData/LegionPassives.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/TimelessJewelData/LegionTradeIds.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/TimelessJewelData/LegionTradeIds.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/TimelessJewelData/LethalPride.zip",
+    "assetPath": "PathOfBuilding-dev/src/Data/TimelessJewelData/LethalPride.zip",
+    "encoding": "binary"
+  },
+  {
+    "virtualPath": "Data/TimelessJewelData/MilitantFaith.zip",
+    "assetPath": "PathOfBuilding-dev/src/Data/TimelessJewelData/MilitantFaith.zip",
+    "encoding": "binary"
+  },
+  {
+    "virtualPath": "Data/TimelessJewelData/NodeIndexMapping.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/TimelessJewelData/NodeIndexMapping.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Uniques/amulet.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Uniques/amulet.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Uniques/axe.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Uniques/axe.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Uniques/belt.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Uniques/belt.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Uniques/body.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Uniques/body.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Uniques/boots.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Uniques/boots.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Uniques/bow.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Uniques/bow.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Uniques/claw.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Uniques/claw.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Uniques/dagger.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Uniques/dagger.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Uniques/fishing.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Uniques/fishing.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Uniques/flask.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Uniques/flask.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Uniques/gloves.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Uniques/gloves.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Uniques/graft.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Uniques/graft.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Uniques/helmet.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Uniques/helmet.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Uniques/jewel.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Uniques/jewel.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Uniques/mace.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Uniques/mace.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Uniques/quiver.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Uniques/quiver.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Uniques/ring.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Uniques/ring.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Uniques/shield.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Uniques/shield.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Uniques/Special/BoundByDestiny.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Uniques/Special/BoundByDestiny.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Uniques/Special/Generated.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Uniques/Special/Generated.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Uniques/Special/New.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Uniques/Special/New.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Uniques/Special/race.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Uniques/Special/race.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Uniques/Special/WatchersEye.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Uniques/Special/WatchersEye.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Uniques/staff.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Uniques/staff.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Uniques/sword.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Uniques/sword.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Uniques/tincture.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Uniques/tincture.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Data/Uniques/wand.lua",
+    "assetPath": "PathOfBuilding-dev/src/Data/Uniques/wand.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Export/browse.lua",
+    "assetPath": "PathOfBuilding-dev/src/Export/browse.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Export/Classes/Dat64File.lua",
+    "assetPath": "PathOfBuilding-dev/src/Export/Classes/Dat64File.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Export/Classes/DatFile.lua",
+    "assetPath": "PathOfBuilding-dev/src/Export/Classes/DatFile.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Export/Classes/DatListControl.lua",
+    "assetPath": "PathOfBuilding-dev/src/Export/Classes/DatListControl.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Export/Classes/GGPKData.lua",
+    "assetPath": "PathOfBuilding-dev/src/Export/Classes/GGPKData.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Export/Classes/GGPKSourceListControl.lua",
+    "assetPath": "PathOfBuilding-dev/src/Export/Classes/GGPKSourceListControl.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Export/Classes/RowListControl.lua",
+    "assetPath": "PathOfBuilding-dev/src/Export/Classes/RowListControl.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Export/Classes/ScriptListControl.lua",
+    "assetPath": "PathOfBuilding-dev/src/Export/Classes/ScriptListControl.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Export/Classes/SpecColListControl.lua",
+    "assetPath": "PathOfBuilding-dev/src/Export/Classes/SpecColListControl.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Export/essenceMatch.lua",
+    "assetPath": "PathOfBuilding-dev/src/Export/essenceMatch.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Export/Launch.lua",
+    "assetPath": "PathOfBuilding-dev/src/Export/Launch.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Export/Main.lua",
+    "assetPath": "PathOfBuilding-dev/src/Export/Main.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Export/passives.lua",
+    "assetPath": "PathOfBuilding-dev/src/Export/passives.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Export/psg.lua",
+    "assetPath": "PathOfBuilding-dev/src/Export/psg.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Export/Scripts/bases.lua",
+    "assetPath": "PathOfBuilding-dev/src/Export/Scripts/bases.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Export/Scripts/bossData.lua",
+    "assetPath": "PathOfBuilding-dev/src/Export/Scripts/bossData.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Export/Scripts/cluster.lua",
+    "assetPath": "PathOfBuilding-dev/src/Export/Scripts/cluster.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Export/Scripts/costs.lua",
+    "assetPath": "PathOfBuilding-dev/src/Export/Scripts/costs.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Export/Scripts/crucible.lua",
+    "assetPath": "PathOfBuilding-dev/src/Export/Scripts/crucible.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Export/Scripts/enchant.lua",
+    "assetPath": "PathOfBuilding-dev/src/Export/Scripts/enchant.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Export/Scripts/enums.lua",
+    "assetPath": "PathOfBuilding-dev/src/Export/Scripts/enums.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Export/Scripts/essence.lua",
+    "assetPath": "PathOfBuilding-dev/src/Export/Scripts/essence.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Export/Scripts/flavourText.lua",
+    "assetPath": "PathOfBuilding-dev/src/Export/Scripts/flavourText.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Export/Scripts/legionPassives.lua",
+    "assetPath": "PathOfBuilding-dev/src/Export/Scripts/legionPassives.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Export/Scripts/mapUniqueToFoulborn.lua",
+    "assetPath": "PathOfBuilding-dev/src/Export/Scripts/mapUniqueToFoulborn.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Export/Scripts/masters.lua",
+    "assetPath": "PathOfBuilding-dev/src/Export/Scripts/masters.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Export/Scripts/minions.lua",
+    "assetPath": "PathOfBuilding-dev/src/Export/Scripts/minions.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Export/Scripts/miscdata.lua",
+    "assetPath": "PathOfBuilding-dev/src/Export/Scripts/miscdata.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Export/Scripts/mods.lua",
+    "assetPath": "PathOfBuilding-dev/src/Export/Scripts/mods.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Export/Scripts/pantheons.lua",
+    "assetPath": "PathOfBuilding-dev/src/Export/Scripts/pantheons.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Export/Scripts/skillGemList.lua",
+    "assetPath": "PathOfBuilding-dev/src/Export/Scripts/skillGemList.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Export/Scripts/skills.lua",
+    "assetPath": "PathOfBuilding-dev/src/Export/Scripts/skills.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Export/Scripts/statdesc.lua",
+    "assetPath": "PathOfBuilding-dev/src/Export/Scripts/statdesc.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Export/Scripts/tattooPassives.lua",
+    "assetPath": "PathOfBuilding-dev/src/Export/Scripts/tattooPassives.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Export/spec.lua",
+    "assetPath": "PathOfBuilding-dev/src/Export/spec.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Export/statdesc.lua",
+    "assetPath": "PathOfBuilding-dev/src/Export/statdesc.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Export/Tree/tree_in.lua",
+    "assetPath": "PathOfBuilding-dev/src/Export/Tree/tree_in.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Export/Tree/tree.lua",
+    "assetPath": "PathOfBuilding-dev/src/Export/Tree/tree.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "GameVersions.lua",
+    "assetPath": "PathOfBuilding-dev/src/GameVersions.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "HeadlessWrapper.lua",
+    "assetPath": "PathOfBuilding-dev/src/HeadlessWrapper.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Launch.lua",
+    "assetPath": "PathOfBuilding-dev/src/Launch.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "LaunchInstall.lua",
+    "assetPath": "PathOfBuilding-dev/src/LaunchInstall.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "manifest.xml",
+    "assetPath": "PathOfBuilding-dev/manifest.xml",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Modules/Build.lua",
+    "assetPath": "PathOfBuilding-dev/src/Modules/Build.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Modules/BuildDisplayStats.lua",
+    "assetPath": "PathOfBuilding-dev/src/Modules/BuildDisplayStats.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Modules/BuildList.lua",
+    "assetPath": "PathOfBuilding-dev/src/Modules/BuildList.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Modules/BuildSiteTools.lua",
+    "assetPath": "PathOfBuilding-dev/src/Modules/BuildSiteTools.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Modules/CalcActiveSkill.lua",
+    "assetPath": "PathOfBuilding-dev/src/Modules/CalcActiveSkill.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Modules/CalcBreakdown.lua",
+    "assetPath": "PathOfBuilding-dev/src/Modules/CalcBreakdown.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Modules/CalcDefence.lua",
+    "assetPath": "PathOfBuilding-dev/src/Modules/CalcDefence.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Modules/CalcMirages.lua",
+    "assetPath": "PathOfBuilding-dev/src/Modules/CalcMirages.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Modules/CalcOffence.lua",
+    "assetPath": "PathOfBuilding-dev/src/Modules/CalcOffence.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Modules/CalcPerform.lua",
+    "assetPath": "PathOfBuilding-dev/src/Modules/CalcPerform.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Modules/Calcs.lua",
+    "assetPath": "PathOfBuilding-dev/src/Modules/Calcs.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Modules/CalcSections.lua",
+    "assetPath": "PathOfBuilding-dev/src/Modules/CalcSections.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Modules/CalcSetup.lua",
+    "assetPath": "PathOfBuilding-dev/src/Modules/CalcSetup.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Modules/CalcTools.lua",
+    "assetPath": "PathOfBuilding-dev/src/Modules/CalcTools.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Modules/CalcTriggers.lua",
+    "assetPath": "PathOfBuilding-dev/src/Modules/CalcTriggers.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Modules/Common.lua",
+    "assetPath": "PathOfBuilding-dev/src/Modules/Common.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Modules/ConfigOptions.lua",
+    "assetPath": "PathOfBuilding-dev/src/Modules/ConfigOptions.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Modules/Data.lua",
+    "assetPath": "PathOfBuilding-dev/src/Modules/Data.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Modules/DataLegionLookUpTableHelper.lua",
+    "assetPath": "PathOfBuilding-dev/src/Modules/DataLegionLookUpTableHelper.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Modules/ItemTools.lua",
+    "assetPath": "PathOfBuilding-dev/src/Modules/ItemTools.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Modules/Main.lua",
+    "assetPath": "PathOfBuilding-dev/src/Modules/Main.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Modules/ModParser.lua",
+    "assetPath": "PathOfBuilding-dev/src/Modules/ModParser.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Modules/ModTools.lua",
+    "assetPath": "PathOfBuilding-dev/src/Modules/ModTools.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Modules/PantheonTools.lua",
+    "assetPath": "PathOfBuilding-dev/src/Modules/PantheonTools.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Modules/StatDescriber.lua",
+    "assetPath": "PathOfBuilding-dev/src/Modules/StatDescriber.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "Modules/ToastNotification.lua",
+    "assetPath": "PathOfBuilding-dev/src/Modules/ToastNotification.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "runtime/lua/base64.lua",
+    "assetPath": "PathOfBuilding-dev/runtime/lua/base64.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "runtime/lua/dkjson.lua",
+    "assetPath": "PathOfBuilding-dev/runtime/lua/dkjson.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "runtime/lua/lua-profiler.lua",
+    "assetPath": "PathOfBuilding-dev/runtime/lua/lua-profiler.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "runtime/lua/sha1/bit_ops.lua",
+    "assetPath": "PathOfBuilding-dev/runtime/lua/sha1/bit_ops.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "runtime/lua/sha1/bit32_ops.lua",
+    "assetPath": "PathOfBuilding-dev/runtime/lua/sha1/bit32_ops.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "runtime/lua/sha1/common.lua",
+    "assetPath": "PathOfBuilding-dev/runtime/lua/sha1/common.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "runtime/lua/sha1/init.lua",
+    "assetPath": "PathOfBuilding-dev/runtime/lua/sha1/init.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "runtime/lua/sha1/lua53_ops.lua",
+    "assetPath": "PathOfBuilding-dev/runtime/lua/sha1/lua53_ops.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "runtime/lua/sha1/pure_lua_ops.lua",
+    "assetPath": "PathOfBuilding-dev/runtime/lua/sha1/pure_lua_ops.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "runtime/lua/xml.lua",
+    "assetPath": "PathOfBuilding-dev/runtime/lua/xml.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/2_6/tree.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/2_6/tree.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_10/tree.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_10/tree.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_11/tree.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_11/tree.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_12/tree.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_12/tree.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_13/tree.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_13/tree.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_14/tree.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_14/tree.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_15/tree.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_15/tree.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_16/tree.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_16/tree.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_17/tree.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_17/tree.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_18/tree.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_18/tree.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_19/Assets.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_19/Assets.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_19/tree.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_19/tree.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_20/tree.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_20/tree.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_21/tree.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_21/tree.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_22_ruthless/tree.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_22_ruthless/tree.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_22/tree.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_22/tree.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_23_ruthless/tree.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_23_ruthless/tree.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_23/tree.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_23/tree.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_24_ruthless/tree.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_24_ruthless/tree.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_24/tree.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_24/tree.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_25_alternate/sprites.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_25_alternate/sprites.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_25_alternate/tree.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_25_alternate/tree.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_25_ruthless_alternate/sprites.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_25_ruthless_alternate/sprites.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_25_ruthless_alternate/tree.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_25_ruthless_alternate/tree.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_25_ruthless/sprites.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_25_ruthless/sprites.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_25_ruthless/tree.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_25_ruthless/tree.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_25/sprites.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_25/sprites.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_25/tree.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_25/tree.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_26_alternate/sprites.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_26_alternate/sprites.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_26_alternate/tree.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_26_alternate/tree.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_26_ruthless_alternate/sprites.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_26_ruthless_alternate/sprites.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_26_ruthless_alternate/tree.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_26_ruthless_alternate/tree.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_26_ruthless/sprites.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_26_ruthless/sprites.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_26_ruthless/tree.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_26_ruthless/tree.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_26/sprites.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_26/sprites.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_26/tree.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_26/tree.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_27_alternate/sprites.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_27_alternate/sprites.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_27_alternate/tree.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_27_alternate/tree.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_27_ruthless_alternate/sprites.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_27_ruthless_alternate/sprites.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_27_ruthless_alternate/tree.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_27_ruthless_alternate/tree.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_27_ruthless/sprites.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_27_ruthless/sprites.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_27_ruthless/tree.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_27_ruthless/tree.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_27/sprites.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_27/sprites.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_27/tree.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_27/tree.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_28_alternate/sprites.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_28_alternate/sprites.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_28_alternate/tree.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_28_alternate/tree.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_28_ruthless_alternate/sprites.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_28_ruthless_alternate/sprites.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_28_ruthless_alternate/tree.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_28_ruthless_alternate/tree.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_28_ruthless/sprites.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_28_ruthless/sprites.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_28_ruthless/tree.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_28_ruthless/tree.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_28/sprites.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_28/sprites.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_28/tree.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_28/tree.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_6/tree.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_6/tree.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_7/tree.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_7/tree.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_8/tree.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_8/tree.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/3_9/tree.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/3_9/tree.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "TreeData/legion/tree-legion.lua",
+    "assetPath": "PathOfBuilding-dev/src/TreeData/legion/tree-legion.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "UpdateApply.lua",
+    "assetPath": "PathOfBuilding-dev/src/UpdateApply.lua",
+    "encoding": "text"
+  },
+  {
+    "virtualPath": "UpdateCheck.lua",
+    "assetPath": "PathOfBuilding-dev/src/UpdateCheck.lua",
+    "encoding": "text"
+  }
+]

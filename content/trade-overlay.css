@@ -1,0 +1,167 @@
+/* ── PoE Impact View — Trade Overlay Styles ── */
+
+/* Status Bar */
+#poe-impact-bar {
+  position: sticky;
+  top: 0;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 6px 16px;
+  background: #1a1a1e;
+  border-bottom: 2px solid #af6025;
+  font-family: 'FontinSmallCaps', 'Fontin-SmallCaps', sans-serif;
+  font-size: 14px;
+  color: #e8e6e3;
+}
+#poe-impact-bar.poe-impact-bar-ok {
+  background: linear-gradient(90deg, #1a1a1e 0%, #2a2015 100%);
+  border-bottom-color: #af6025;
+}
+#poe-impact-bar.poe-impact-bar-warn {
+  background: #2a2015;
+  border-bottom-color: #cc8030;
+}
+#poe-impact-bar.poe-impact-bar-error {
+  background: #2a1515;
+  border-bottom-color: #cc3030;
+}
+#poe-impact-bar.poe-impact-bar-loading {
+  background: #1a1a2e;
+  border-bottom-color: #5070cc;
+}
+#poe-impact-bar-text {
+  flex: 1;
+}
+
+/* Impact Panel (per trade result row) */
+.poe-impact-panel {
+  position: relative;
+  margin: 8px 0 4px 0;
+  padding: 8px 12px;
+  background: #0c0c0e;
+  border: 1px solid #3a3a3e;
+  border-radius: 4px;
+  font-size: 12px;
+  color: #e8e6e3;
+  z-index: 9999;
+}
+.poe-impact-panel.poe-impact-pending {
+  opacity: 0.6;
+  border-color: #5070cc;
+}
+
+/* Verdict Header */
+.poe-impact-verdict {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 8px;
+  margin: -8px -12px 8px -12px;
+  border-radius: 4px 4px 0 0;
+  font-weight: bold;
+  font-size: 13px;
+}
+.poe-impact-verdict.upgrade {
+  background: linear-gradient(90deg, rgba(40,100,40,0.4) 0%, rgba(40,100,40,0.1) 100%);
+  color: #66ff66;
+  border-bottom: 1px solid #338033;
+}
+.poe-impact-verdict.downgrade {
+  background: linear-gradient(90deg, rgba(100,40,40,0.4) 0%, rgba(100,40,40,0.1) 100%);
+  color: #ff6666;
+  border-bottom: 1px solid #803333;
+}
+.poe-impact-verdict.neutral {
+  background: linear-gradient(90deg, rgba(60,60,80,0.4) 0%, rgba(60,60,80,0.1) 100%);
+  color: #8b8b9e;
+  border-bottom: 1px solid #4a4a5e;
+}
+.verdict-text { flex: 1; }
+.verdict-pct {
+  font-size: 12px;
+  font-weight: normal;
+}
+.verdict-pct.upgrade { color: #66ff66; }
+.verdict-pct.downgrade { color: #ff6666; }
+
+/* Items header */
+.poe-impact-items {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+  font-size: 11px;
+  color: #8b8b9e;
+}
+.poe-impact-slot {
+  background: #1a1a2e;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 10px;
+  color: #7070aa;
+}
+.poe-impact-item-name {
+  color: #af6025;
+  font-style: italic;
+}
+
+/* Compare Grid */
+.poe-impact-compare {
+  display: grid;
+  gap: 0;
+}
+.poe-impact-compare-header {
+  display: grid;
+  grid-template-columns: 1fr 80px 80px 80px;
+  gap: 4px;
+  padding: 2px 4px;
+  background: #1a1a1e;
+  border-radius: 3px;
+  font-size: 10px;
+  color: #6a6a7e;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 2px;
+}
+.poe-impact-compare-row {
+  display: grid;
+  grid-template-columns: 1fr 80px 80px 80px;
+  gap: 4px;
+  padding: 2px 4px;
+  border-bottom: 1px solid #1a1a1e;
+  font-size: 12px;
+}
+.poe-impact-compare-row:last-child {
+  border-bottom: none;
+}
+.stat-label {
+  color: #c0c0cc;
+}
+.stat-now, .stat-new {
+  text-align: right;
+  color: #a0a0b0;
+}
+.stat-diff {
+  text-align: right;
+  font-weight: bold;
+}
+.stat-diff.upgrade { color: #66ff66; }
+.stat-diff.downgrade { color: #ff6666; }
+.stat-diff.neutral { color: #6a6a7e; }
+
+/* Stats button */
+.poe-impact-btn-stats {
+  background: none;
+  border: 1px solid #5070aa;
+  border-radius: 3px;
+  padding: 2px 6px;
+  cursor: pointer;
+  font-size: 12px;
+  color: #7090cc;
+  transition: background 0.15s;
+}
+.poe-impact-btn-stats:hover {
+  background: #1a1a3e;
+}

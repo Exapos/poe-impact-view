@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>PoE Impact View</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <!-- Header -->
+  <div class="header">
+    <h1 data-i18n="popup.h1">⚔️ PoE Impact View</h1>
+    <div class="header-actions">
+      <select id="lang-select" data-i18n-title="lang.label" title="Language">
+        <option value="cs">🇨🇿</option>
+        <option value="en">🇬🇧</option>
+        <option value="zh">🇨🇳</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Tabs -->
+  <div class="tab-bar">
+    <button class="tab active" data-tab="import" data-i18n="tab.import">Import</button>
+    <button class="tab" data-tab="build" data-i18n="tab.build">Build</button>
+    <button class="tab" data-tab="calc" data-i18n="tab.calc">Stats</button>
+  </div>
+
+  <!-- Tab: Import -->
+  <div id="tab-import" class="tab-content active">
+    <div class="form-group">
+      <label for="build-name" data-i18n="import.name_label">Build name (optional)</label>
+      <input id="build-name" type="text" data-i18n-placeholder="import.name_placeholder" placeholder="e.g. LS Slayer / Mapper / Bossing">
+    </div>
+    <div class="form-group">
+      <label data-i18n="import.label">Paste PoB code or pobb.in URL:</label>
+      <textarea id="input-pob" rows="3" data-i18n-placeholder="import.placeholder" placeholder="eNrtfW1z4jiW...  or  https://pobb.in/abc123"></textarea>
+    </div>
+    <button id="btn-import" class="btn-primary" data-i18n="import.btn">Import Build</button>
+    <div id="import-status" class="status"></div>
+  </div>
+
+  <!-- Tab: Build Info -->
+  <div id="tab-build" class="tab-content">
+    <div id="build-list" class="build-list">
+      <p class="empty-state" data-i18n="build.no_builds">No imported builds.</p>
+    </div>
+    <div id="build-info" class="build-info">
+      <p class="empty-state" data-i18n="build.empty">No build imported</p>
+    </div>
+    <div id="build-items" class="build-items"></div>
+  </div>
+
+  <!-- Tab: Stats -->
+  <div id="tab-calc" class="tab-content">
+    <div id="calc-stats" class="stat-grid">
+      <p class="empty-state" data-i18n="calc.empty">Import a build first</p>
+    </div>
+  </div>
+
+  <script src="../lib/pako-bundle.js"></script>
+  <script src="../lib/wasmoon-bundle.js"></script>
+  <script src="../lib/i18n.js"></script>
+  <script src="../lib/build-storage.js"></script>
+  <script src="../lib/pob-codec.js"></script>
+  <script src="../lib/pob-stats.js"></script>
+  <script src="../lib/pob-lua-vm.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
